@@ -111,13 +111,13 @@ author:
       url: mailto:saiver500@naver.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-    #  url: "http://honbabzone.com/"
+    #  url: "https://parkgunwook.github.io/
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-    #  url: "https://www.facebook.com/seokjin.kim.16"
+    #  url: "https://www.facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ParkGunWook"
@@ -130,24 +130,24 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:7271kim@naver.com
+      url: mailto:saiver500@naver.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/seokjin.kim.16"
+    #- label: "Facebook"
+      #icon: "fab fa-fw fa-facebook-square"
+      #url: "https://www.facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/7271kim"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+    #- label: "Bitbucket"
+      #icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    #- label: "Instagram"
+      #icon: "fab fa-fw fa-instagram"
       # url:
 
 
