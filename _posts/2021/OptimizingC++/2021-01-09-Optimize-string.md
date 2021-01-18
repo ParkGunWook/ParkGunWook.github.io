@@ -7,7 +7,7 @@ comments: true
 share: false
 related: true
 categories:
-- OptimizingCpp
+- OptimizingC++
 tag:
 - String
 toc: true

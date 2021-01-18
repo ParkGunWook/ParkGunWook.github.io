@@ -44,14 +44,17 @@ last_modified_at: '2021-01-09 15:00:00 +0800'
 
 ### 2.2 Iterator
 
-#### BLue box....
-> String Iterator type is LegacyRandomAccessIterator.
-> Supporting Read/Increase & Decrease(itr1 += n)/ Random Access / Bool (itr1 < itr2 == true)
+String Iterator type is LegacyRandomAccessIterator.
 
 |Member function|Description|Exampele|
 |---|---|---|
 |begin | returns an iterator to the begining | `s1.end()` |
 |end | returns an iterator to the end | `s1.end()` |
+
+<div class="notice--info">
+  <p>Increase & Decrease(itr1 += n) <br>
+Bool (itr1 < itr2 == true)</p>
+</div>
 
 ### 2.3 Capacity
 
@@ -83,8 +86,8 @@ All search function return **npos** if fail to search.
 
 |Member function|Description|Return Type|Exampele|
 |---|---|---|---|
-|find|find characters in the string | positioin of the first character of the found substring | `s1.find(target_string, offset)|
-|find_first_not_of|Searches through a string for the first character that isn't element of a specified string|size_type(position)|`s1.find_first_not_of(string, offset)|
+|find|find characters in the string | positioin of the first character of the found substring | `s1.find(target_string, offset)`|
+|find_first_not_of|Searches through a string for the first character that isn't element of a specified string|size_type(position)|`s1.find_first_not_of(string, offset)`|
 
 ### 2.6 Conversions
 

@@ -6,7 +6,7 @@ main:
     url: /tags/
 #  - title: "About"
 #    url: /about/
-  - title: "연도별 포스트"
+  - title: "posts"
     url: /posts/
 
 # - title: "Quick-Start Guide"
@@ -18,3 +18,27 @@ main:
 #   url: /collection-archive/
 # - title: "Sitemap"
 #   url: /sitemap/
+
+sidebar-sample:
+  - title: "Parent Page A"
+    children:
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+  - title: "Parent Page B"
+    children:
+      - title: "Child Page B1"
+        url: /
+      - title: "Child Page B2"
+        url: /
+  - title: "Parent Page C"
+    children:
+      - title: "Child Page C1"
+        url: /
+      - title: "Child Page C2"
+        url: /
+  - title: "Parent Page D"
+    children:
+      - title: "Child Page D1"
+        url: /
