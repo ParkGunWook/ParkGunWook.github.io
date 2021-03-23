@@ -68,4 +68,6 @@ Now we can get this file.
 
 > `patch [options] originalfile patchfile`
 
+Patch will detect difference between `hello1.c` and `hello2.c` if you put `hello1.c` to originalfile you will get `hello2.c`. And if you put `hello2.c` to originalfile you will get `hello2.c`.
+
 Now you can patch file with `hello.patch`
