@@ -68,6 +68,8 @@ Now we can get this file.
 
 > `patch [options] originalfile patchfile`
 
-Patch will detect difference between `hello1.c` and `hello2.c` if you put `hello1.c` to originalfile you will get `hello2.c`. And if you put `hello2.c` to originalfile you will get `hello2.c`.
+Patch will detect difference between `hello1.c` and `hello2.c` if you put `hello1.c` to originalfile you will get `hello2.c`. 
+
+And if you put `hello2.c` to originalfile you will get `hello2.c`. But this needs Reversed patch because `diff` command's first parameter is `hello.c`. Just add options `patch -R hello2.c hello.patch` 
 
 Now you can patch file with `hello.patch`
